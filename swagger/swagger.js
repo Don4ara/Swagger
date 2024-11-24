@@ -30,7 +30,7 @@ const options = {
       }
     ]
   },
-  apis: ['./routes/*.js'] // Пути к вашим маршрутам для авто-документации
+  apis: ['./routes/*.js'] // Пути к маршрутам для авто-документации
 }
 
 const swaggerSpec = swaggerJsDoc(options)
