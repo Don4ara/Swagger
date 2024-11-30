@@ -1,4 +1,4 @@
-const Product = require('../models/Product') // Модель Product
+const Product = require('../models/Product')
 
 exports.getAllProducts = async (req, res) => {
   try {
@@ -50,6 +50,11 @@ exports.updateProduct = async (req, res) => {
 
     product.name = name || product.name
     product.price = price || product.price
+
+
+    name, 
+
+
     await product.save()
 
     res.json(product)

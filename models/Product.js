@@ -1,5 +1,5 @@
 const { Model, DataTypes } = require('sequelize')
-const sequelize = require('../config/database') // Подключение к базе данных
+const sequelize = require('../config/database')
 
 class Product extends Model {}
 

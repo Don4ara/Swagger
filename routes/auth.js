@@ -52,12 +52,6 @@ const router = express.Router()
  */
 router.post('/register', register)
 
-/**
- * @swagger
- * tags:
- *   name: Auth
- *   description: Управление аутентификацией
- */
 
 /**
  * @swagger
